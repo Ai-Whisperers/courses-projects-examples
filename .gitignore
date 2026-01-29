@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+venv/
+.env/
+__pycache__/
+*.pyc
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Data files (large datasets)
+*.csv
+*.h5
+*.hdf5
+*.pkl
+!examples/*.csv
+
+# Model weights (track separately via Git LFS if needed)
+*.pt
+*.pth
+*.onnx
+*.weights
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.local
